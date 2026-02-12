@@ -16,7 +16,9 @@ Version 4.0 – Process Tracking | Smart Recovery | Advanced Analytics
 📖 Table of Contents
 
 · Features
+
 · How It Works
+
 · Directory Structure
 · Requirements
 · Installation
