@@ -188,18 +188,18 @@ While Termux Session Manager Pro is crafted for Termux on Android,
  many features work on standard Linux distributions (Ubuntu, Debian, Fedora, etc.) with minor adjustments.
 
 Feature Works on Linux? Notes
-1. Soft Restart ✅ Yes exec $SHELL -l works everywhere.
-2. Process Dashboard ✅ Yes Requires watch and ps (procps).
-3. Resource Monitor ✅ Yes htop or top present.
-4. Emergency Stop ✅ Yes pkill works on Linux.
-5. Session Reset ❌ No termux-reload-settings is Termux‑only.
-6. Activity Restart ❌ No Android am command not available.
-7. Service Recovery ⚠️ Partial Works, but you may need to adjust service names.
+1. Soft Restart                  ✅ Yes         - exec $SHELL -l works everywhere.
+2. Process Dashboard             ✅ Yes         - Requires watch and ps (procps).
+3. Resource Monitor              ✅ Yes         - htop or top present.
+4. Emergency Stop                ✅ Yes         - pkill works on Linux.
+5. Session Reset                 ❌ No          - termux-reload-settings is Termux‑only.
+6. Activity Restart              ❌ No          - Android am command not available.
+7. Service Recovery              ⚠️ Partial     - Works, but you may need to adjust service names.
 
 To use on Linux:
 
-· Comment or remove lines containing am broadcast and termux-reload-settings.
-· Ensure watch, pkill, free are installed (usually present by default).
+> Comment or remove lines containing am broadcast and termux-reload-settings.
+> Ensure watch, pkill, free are installed (usually present by default).
 
 A Linux‑native fork is planned – see Future Scope.
 
