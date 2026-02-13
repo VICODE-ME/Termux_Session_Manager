@@ -102,8 +102,8 @@ All log files are created with chmod 600 (read/write for owner only) for securit
 1. Download the script
 
 ```bash
-curl -o ~/termux_refresher.sh \
-  https://raw.githubusercontent.com/yourusername/termux-session-pro/main/termux_refresher.sh
+curl -o ~/termux_session_manager.sh \
+  https://github.com/VICODE-ME/Termux_Session_Manager/termux_session_manager.sh
 ```
 
 2. Make it executable
