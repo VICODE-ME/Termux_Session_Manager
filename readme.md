@@ -184,16 +184,17 @@ View logs quickly via Option 7 → choose 1 or 2 for tail -n 10, or 3/4 for the 
 
 🐧 Compatibility with Other Linux Flavors
 
-While Termux Session Manager Pro is crafted for Termux on Android, many features work on standard Linux distributions (Ubuntu, Debian, Fedora, etc.) with minor adjustments.
+While Termux Session Manager Pro is crafted for Termux on Android, 
+ many features work on standard Linux distributions (Ubuntu, Debian, Fedora, etc.) with minor adjustments.
 
 Feature Works on Linux? Notes
-Soft Restart ✅ Yes exec $SHELL -l works everywhere.
-Process Dashboard ✅ Yes Requires watch and ps (procps).
-Resource Monitor ✅ Yes htop or top present.
-Emergency Stop ✅ Yes pkill works on Linux.
-Session Reset ❌ No termux-reload-settings is Termux‑only.
-Activity Restart ❌ No Android am command not available.
-Service Recovery ⚠️ Partial Works, but you may need to adjust service names.
+1. Soft Restart ✅ Yes exec $SHELL -l works everywhere.
+2. Process Dashboard ✅ Yes Requires watch and ps (procps).
+3. Resource Monitor ✅ Yes htop or top present.
+4. Emergency Stop ✅ Yes pkill works on Linux.
+5. Session Reset ❌ No termux-reload-settings is Termux‑only.
+6. Activity Restart ❌ No Android am command not available.
+7. Service Recovery ⚠️ Partial Works, but you may need to adjust service names.
 
 To use on Linux:
 
@@ -218,12 +219,6 @@ We are actively improving the project. Planned features:
 · Plugin system – easily add custom restart actions.
 · Web interface (experimental) – view logs via a local HTTP server.
 
-How to contribute:
-
-· Fork the repository.
-· Submit pull requests.
-· Open issues for bugs or feature requests.
-
 ---
 
 🖼️ Screenshots & GIFs
@@ -246,13 +241,9 @@ How to contribute:
   <em>Quick session audit with tail.</em>
 </p>
 
-Note: Replace the placeholder paths with actual images hosted in your repository (e.g., in a /screenshots folder). To create GIFs, tools like screenrecord + ffmpeg on Android work great.
-
 ---
 
 🌐 Web Preview: https://vicode-me.github.io/web-not-for-user/.
-
-For a more customised web page, create an index.html that embeds the README or presents the information with custom CSS. You can also use tools like Docusaurus or docsify for a richer experience.
 
 ---
 
