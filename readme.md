@@ -244,6 +244,7 @@ We are actively improving the project. Planned features:
 ---
 
 🌐 Web Preview (How Script work): https://vicode-me.github.io/web-not-for-user/.
+The terminal is interactive, please spend some time over above link to understand the working of Termux Session Manager Pro
 
 ---
 
