@@ -239,7 +239,7 @@ How to contribute:
 </p>
 
 <p align="center">
-  <img src="assets/process-dashboard.gif" alt="Process Dashboard GIF" width="600">
+  <img src="assets/process-dashboard.png" alt="Process Dashboard GIF" width="600">
   <br>
   <em>Live process dashboard (watch + ps).</em>
 </p>
